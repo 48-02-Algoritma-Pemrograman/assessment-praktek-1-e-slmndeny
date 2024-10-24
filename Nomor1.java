@@ -5,10 +5,10 @@ public class Nomor1{
         int jumlahAnggota, tunjangan;
         Scanner input = new Scanner(System.in); 
 
-        System.out.println("\nJumlah Anggota Keluarga: ");
+        System.out.println("Jumlah Anggota Keluarga: ");
         jumlahAnggota = input.nextInt();
 
-        if (jumlahAnggota < 3 ) {
+        if (jumlahAnggota <= 3 ) {
             tunjangan = jumlahAnggota * 100000;
         }else if (jumlahAnggota ==3) {
             tunjangan = jumlahAnggota * 100000;
